@@ -118,12 +118,6 @@ html, body{
     background-color: rgb(145, 250, 113);
 
 }
-   
- h2{
-   margin-left:40%;
-   font-size: 25px;
-   font-weight: 700;
- }
   
  .btn2{
   width: 160px;
@@ -133,7 +127,7 @@ html, body{
   padding: 1px 1px;
   font-weight: 700;
   margin-top: 20%;
-  margin-left: 17%;
+  margin-left: 12%;
   color: white;
   text-align: center;
   text-shadow: 1px 1px 1px #000;
