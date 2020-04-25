@@ -33,7 +33,6 @@ function shuffle() {
       card.style.order = ramdomPos;
       card.style.opacity= shade;
       shade+=0.01;
-      localStorage.clear();
     });
   }
   shuffle();
