@@ -1,0 +1,148 @@
+
+html, body{
+    margin: 0;
+    background:rgb(145, 250, 113); 
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .layout{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+  }
+  .controls{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40vw;
+
+  }
+  .timerclock{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 40vw;
+    color: black;
+  }
+  .best{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 41%;
+    color: black; 
+  }
+  .btn{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 1px 1px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+  }
+  .btn:hover ,.btn2:hover{
+    background-color: tomato;
+  }
+  .btn:active ,.btn2:active{
+    background-color: yellowgreen;
+  }
+  .gridno ,.grid2{
+    display: flex;
+    flex-wrap:wrap;
+    width: 500px;
+    height: 500px;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(178, 250, 156) ;
+  } 
+  
+ .intial ,.intial2 {
+  
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 900;
+    width: 80px;
+    height: 80px ;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background: hsl(204, 83%, 45%);
+    
+  }
+ .intial:active ,.intial2:active{
+   background: green;
+ }
+ .frame{
+   border: 2px solid black;
+   background-color:rgb(145, 250, 113);
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 500px;
+   height: 300px;
+   margin-top: 125px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 25px;
+   font-weight: 700;
+   color: black;
+ }
+
+  .final {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 8px;
+    border: 10px solid black;
+    white-space: pre-line;
+    font-size: 25px;
+    color: rgb(6, 5, 12);
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(145, 250, 113);
+
+}
+   
+ h2{
+   margin-left:40%;
+   font-size: 25px;
+   font-weight: 700;
+ }
+  
+ .btn2{
+  width: 160px;
+  height: 80px;
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 1px 1px;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: 17%;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+}
+@media screen and (max-width:500px)
+{
+  .gridno, .grid2, .frame, .final{
+    width: 100%;
+  }
+}
